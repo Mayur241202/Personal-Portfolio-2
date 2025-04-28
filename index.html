@@ -3,33 +3,321 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title>Mayur Kapgate - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="INDEX.css">
+    <style>
+        
+    </style>
 </head>
 <body>
+    <!-- Header Design -->
     <header class="header">
-        <a class="logo">My Portfolio</a>
+        <a href="#" class="logo1"><i class="fas fa-code"></i> Mayur</a>
+
+        <i class='fas fa-bars' id="menu-icon"></i>
+
         <nav class="navbar">
-            <a href="index.html" class="active">HOME</a>
-            <a href="Skills.html">SKILLS/PROJECTS</a>
-            <a href="About.html">ABOUT ME</a>
-            <a href="Contact.html">CONTACT</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, I am Mayur</h1>
-            <div class="image-container">
-                <img src="Mayur.jpg" alt="My Image">
+            <h3>Hello, It's Me</h3>
+            <h1>Mayur Kapgate</h1>
+            <h3>And I'm an <span>Aspiring Software Developer</span></h3>
+            <p>Expertise in Frontend Development (HTML, CSS, JavaScript), Databases (SQL), 
+               and Data Structures & Algorithms (DSA). Passionate about building scalable web applications 
+               and solving complex problems with efficient coding.</p>
+            <div class="social-media">
+                <a href="https://github.com/Mayur241202" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.codechef.com/users/mayur5365" target="_blank"><i class="fas fa-code"></i></a>
+                <a href="https://www.geeksforgeeks.org/user/mayur5365/" target="_blank"><i class="fas fa-laptop-code"></i></a>
+                <a href="https://leetcode.com/u/Mayur5365/" target="_blank"><i class="fas fa-terminal"></i></a>
             </div>
-            <h2>T.Y. B.Tech. Student</h2>
-            <p>
-                I am currently studying in Third Year at MIT AOE, Alandi, Pune persuing B.Tech. degree in Computer Engineering.
-            </p>
-            <div class="btn-box">
-                <p><a href="Resume.pdf">View Resume</a></p>
+            <a href="DSA_DB.pdf" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="Mayur.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Aspiring Software Developer!</h3>
+            <p>Hi, I'm Mayur Kapgate, a passionate Software Developer currently pursuing a B.Tech in Computer Engineering at MIT Academy of Engineering, Pune. I specialize in Front-End Web Development and have a solid foundation in C++, Data Structures & Algorithms (DSA), and Database Management (SQL).
+
+                I have hands-on experience building real-world projects like an Inventory Management System, Lung Cancer Prediction System and a Pet Adoption Management System, focusing on creating user-friendly and scalable web applications.
+                My technical skills span HTML5, CSS, JavaScript, SQL and OOPs concepts. I am particularly passionate about solving complex problems efficiently and continuously strengthening my DSA expertise (currently focused on Stacks & Queues).
+                
+                I love participating in coding competitions, and I have solved over 200+ problems across CodeChef, LeetCode, and GeeksforGeeks.
+                Beyond coding, I enjoy playing and following cricket and expressing creativity through hand-drawn sketching and art.
+                
+                I'm always eager to learn, grow, and contribute to meaningful projects. Let's connect and build something amazing together!
+                
+                </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Education Section Design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <h3>B.Tech. - Computer Engineering</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+                <p>2022 - 2026</p>
+                <p>CGPA: 8.93 / 10</p>
+            </div>
+
+            <div class="education-box">
+                <h3>12th Standard</h3>
+                <p>Mohsinbhai Zaweri College, Desaiganj (Vadasa)</p>
+                <p>2020</p>
+                <p>Percentage: 70.62 / 100</p>
+            </div>
+
+            <div class="education-box">
+                <h3>10th Standard</h3>
+                <p>Mahatma Gandhi Vidyalaya, Desaiganj (Vadasa)</p>
+                <p>2018</p>
+                <p>Percentage: 89.40 / 100</p>
             </div>
         </div>
     </section>
+
+    <!-- Experience Section Design -->
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
+
+        <div class="experience-container">
+            <div class="experience-box">
+                <div class="experience-date">14 Jul, 2023 - 14 Aug, 2023</div>
+                <h3>Frontend Web Developer</h3>
+                <h4>Suven Consultants & Technology Pvt. Ltd.</h4>
+                <p>Completed a 4-week Front-End Developer internship, where I gained hands-on experience in building responsive web interfaces, enhancing user experience, and implementing modern web development practices.</p>
+                <div class="skills">
+                    <span class="skill-tag">Javascript</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Frontend</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section Design -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <h3>Inventory Management System</h3>
+                <p>Developed an Inventory Management System using the MERN stack, enabling users to manage products with CRUD operations. Focused on frontend development using React.js, HTML, CSS, and JavaScript to create an interactive UI. Additionally, contributed to database management with MongoDB, ensuring efficient product storage and retrieval.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Javascript</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">Front-End Web Development</span>
+                </div>
+                <div class="project-links">
+                    <p><strong>Team Size:</strong> 3</p>
+                    <p><strong>Mentor:</strong> Kaushal Joshi</p>
+                    <a href="https://github.com/Mayur241202/Inventory_Management_System.git" class="btn" target="_blank">Source Code</a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <h3>Lung Cancer Prediction System</h3>
+                <p>Explored the development of a Lung Cancer Prediction System using Machine Learning. Analyzed models such as XGBoost, Random Forest, Decision Tree, Logistic Regression, and SVM for classification. Studied data preprocessing techniques, feature selection, and model evaluation methods like AUC-ROC, Precision-Recall, and F1-score. Focused on hyperparameter tuning to optimize model performance and select the most accurate prediction model.</p>
+                <div class="skills">
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">Artificial Intelligence</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">HTML5</span>
+                </div>
+                <div class="project-links">
+                    <p><strong>Team Size:</strong> 3</p>
+                    <p><strong>Mentor:</strong> Sunita Barve</p>
+                    <!-- If you have a GitHub or project link, you can add it below -->
+                    <!-- <a href="YOUR_PROJECT_LINK_HERE" class="btn" target="_blank">Source Code</a> -->
+                </div>
+            </div>
+            
+
+            <div class="projects-box">
+                <h3>Pet Adoption Management System</h3>
+                <p>Developed a Pet Adoption Management System to simplify and streamline the pet adoption process. The system enables users to browse available pets, submit adoption applications, and donate pets. Implemented CRUD operations using SQL for efficient data storage. Focused on building a user-friendly interface with secure data handling.</p>
+                <div class="skills">
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">Javascript</span>
+                </div>
+                <div class="project-links">
+                    <p><strong>Team Size:</strong> 3</p>
+                    <p><strong>Mentor:</strong> Ranjana Bandre</p>
+                    <a href="https://github.com/Mayur241202/Pet-Adoption-Management-System-.git" class="btn" target="_blank">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section Design -->
+    <section class="certifications" id="certifications">
+        <h2 class="heading">My <span>Certifications</span> & <span>Achievements</span></h2>
+
+        <div class="certifications-container">
+            <div class="certification-box">
+                <h3>MERN Stack Application Development</h3>
+                <p>Successfully completed a certification course in MERN Stack Application Development under TechSaksham, a joint CSR initiative by Microsoft and SAP, implemented by Edunet Foundation. The program covered full-stack development using MongoDB, Express.js, React.js, and Node.js.</p>
+                <div class="skills">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">MongoDB</span>
+                </div>
+                <p><strong>Score:</strong> 9/10</p>
+            </div>
+
+            <div class="certification-box">
+                <h3>Pair Programming Technical Event</h3>
+                <p>Participated in the Pair Programming Competition under the National Level Technical Event 'Equilibrium 2024,' organized by CodeChef at MITAOE. The event involved collaborating on coding challenges, enhancing problem-solving skills, and applying teamwork in a competitive programming environment.</p>
+                <div class="skills">
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Creative Problem Solving</span>
+                </div>
+                <p><strong>Result:</strong> In Top 10 Among 50 Teams </p>
+            </div>
+
+            <div class="certification-box">
+                <h3>Introduction To Machine Learning</h3>
+                <p>Successfully completed a 12-week course on Machine Learning offered by NPTEL, covering fundamental concepts such as supervised and unsupervised learning, regression, classification, and model evaluation. Gained hands-on experience in implementing ML algorithms and understanding their real-world applications.</p>
+                <div class="skills">
+                    <span class="skill-tag">Machine Learning</span>
+                    <span class="skill-tag">Artificial Intelligence</span>
+                </div>
+                <p><strong>Aggregate:</strong> 62/100</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+        <div class="contact-info">
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> Email: mayur.kapgate@mitaoe.ac.in, mayurkapgate1234@gmail.com</p>
+                <p><i class="fas fa-phone"></i> Phone: +91-9699288047, +91-8530713281</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: Near Anand Hospital, Concept Heritage, Dehu Phata, Alandi, Pune, Maharashtra, India - 412105</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Mayur Kapgate | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Toggle icon navbar
+        let menuIcon = document.querySelector('#menu-icon');
+        let navbar = document.querySelector('.navbar');
+
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        };
+
+        // Scroll sections active link
+        let sections = document.querySelectorAll('section');
+        let navLinks = document.querySelectorAll('header nav a');
+
+        window.onscroll = () => {
+            sections.forEach(sec => {
+                let top = window.scrollY;
+                let offset = sec.offsetTop - 150;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+
+                if (top >= offset && top < offset + height) {
+                    navLinks.forEach(links => {
+                        links.classList.remove('active');
+                        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                    });
+                }
+            });
+
+            // Sticky navbar
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 100);
+
+            // Remove toggle icon and navbar when click navbar link (scroll)
+            menuIcon.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        };
+
+        // Scroll reveal
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const sr = ScrollReveal({
+                distance: '80px',
+                duration: 2000,
+                delay: 200
+            });
+
+            sr.reveal('.home-content, .heading', { origin: 'top' });
+            sr.reveal('.home-img, .services-container, .projects-container, .certifications-container, .contact form', { origin: 'bottom' });
+            sr.reveal('.home-content h1, .about-img', { origin: 'left' });
+            sr.reveal('.home-content p, .about-content', { origin: 'right' });
+        });
+
+        // Typing animation
+        const typed = new Typed('.multiple-text', {
+            strings: ['Frontend Developer', 'Web Developer', 'Software Developer'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
 </body>
 </html>
